@@ -93,10 +93,10 @@ function showSelectedDateTime(id, date, time, time_formatted){
             <ul class="list-group list-group-flush">
                 <li class="list-group-item text-primary"><i class="bi bi-calendar2-event"></i> <b> ${date}</b></li>
                 <li class="list-group-item text-primary"><i class="bi bi-clock"></i><b> ${time_formatted}</b></li>
-                <li class="list-group-item">Total Amt. payble: <b>$${charge}</b></li>
+                <li class="list-group-item">Total Amt. payble: <b>₹${charge}</b></li>
             </ul>
             <div class="card-footer text-center">
-                <button onclick= \"showPayment('${charge}','${paypal}','${id}','${date}','${time}')\" class="btn btn-outline-success" id="pay-to-proceed-{{doctor.id}}">Proceed to Payment</button>
+                <button onclick= \"showPayment('${charge}','${paypal}','${id}','${date}','${time}')\" class="btn btn-outline-success" id="pay-to-proceed-{{doctor.id}}">Book Appointment</button>
             </div>
         </div>
     </div>
