@@ -17,6 +17,7 @@ urlpatterns = [
 
     #patient appointment date and times
     path('searchdate', views.getTimesForParticularDay, name = "gtfpd"),
+    # path('searchdate', views.DoctorAppointmentPage.as_view(), name = "gtfpd"),
 
     #doctor-appointment
     path('appointments/doctor/',views.DoctorAppointmentPage.as_view(), name="d_app"),

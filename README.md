@@ -5,7 +5,7 @@ Final Year Group project - Grp 10
 
 ## Run project directly with docker
 1. Build the docker image: 
-`docker build -t odas .`
+`ad`
 
 2. Run the container:
 `docker run -p 8000:8000 odas`
